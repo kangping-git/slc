@@ -1,0 +1,23 @@
+{
+    "name": "slc",
+    "version": "0.0.0",
+    "description": "Scratch Language Compiler",
+    "main": "dist/main.js",
+    "bin": {
+        "slc": "./dist/cli.js"
+    },
+    "scripts": {
+        "test:turbowarp": "turbowarp ./a.sb3",
+        "test:scratch": "scratch ./a.sb3"
+    },
+    "keywords": [
+        "Scratch",
+        "Compiler"
+    ],
+    "author": "Kangping",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.12.4",
+        "typescript": "^5.4.4"
+    }
+}
